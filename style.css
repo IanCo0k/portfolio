@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;400;500;600;700&display=swap');
+
+:root{
+    --sky-blue: #8ecae6ff;
+    --blue-green: #219ebcff;
+    --background: #023047ff;
+    --text: #eee;
+    --ut-orange: #fb8500ff;
+}
+
+.bg-green{
+  background: var(--blue-green) !important;
+}
+
+body{
+    background: var(--background);
+    font-family: 'Outfit', sans-serif;
+    color: var(--text);
+    box-sizing: border-box;
+}
+
+.custom{
+    background-color: var(--background) !important;
+    color: var(--text) !important;
+}
+
+.custom-border{
+  border: 3px solid var(--blue-green) !important;
+  border-radius: 1em !important;
+}
+
+.feature-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: .75rem;
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: .75rem;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  border: none;
+}
+
+.navbar-toggler:active{
+  border: none;
+}
+
+.text-shadow-1 { text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25); }
+.text-shadow-2 { text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25); }
+.text-shadow-3 { text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25); }
+
+.card-cover {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.card:hover{
+  transform: scale(1.05);
+  transition: all 0.5s ease-in-out;
+}
+
+.feature-icon-small {
+  width: 3rem;
+  height: 3rem;
+}
+
+.navbar-nav .nav-link {
+  font-size: 18px; /* Adjust the font size as needed */
+  margin-right: 30px; /* Adjust the margin as needed */
+}
+
+.navbar-logo{
+  width: 100px;
+  height: auto;
+}
+
+.btn-primary{
+  background: var(--blue-green) !important;
+  border-color: var(--blue-green) !important;
+}
+
+.btn-dark{
+  background: var(--background) !important;
+  border-color: var(--background) !important;
+}
+
+.card-square {
+  width: 100%;
+  padding-top: 100%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+}
+
+
+.modal-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+ /* Custom CSS */
+ @media (min-width: 992px) {
+    .navbar-toggler {
+      position: absolute;
+      right: 15px;
+      top: 15px;
+    }
+
+    .carousel-img {
+      max-width: 50%;
+      height: auto;
+      margin: 0 auto;
+    }
+  }
+
+  
